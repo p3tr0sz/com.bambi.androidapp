@@ -1,0 +1,365 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".System5" 
+    android:background="@color/black">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+              <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" 
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title2" 
+        android:textColor="@color/white" />
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+		
+	    	    <EditText android:id="@+id/M5a11" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M5a12" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M5a13" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	           <EditText android:id="@+id/M5a14" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	           <EditText android:id="@+id/M5a15" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center" >
+		
+	    	    <EditText android:id="@+id/M5a21" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+ android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M5a22" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M5a23" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	            <EditText android:id="@+id/M5a24" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	           <EditText android:id="@+id/M5a25" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M5a31" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M5a32" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M5a33" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M5a34" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	               <EditText android:id="@+id/M5a35" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M5a41" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M5a42" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M5a43" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M5a44" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M5a45" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+
+	<TableRow
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M5a51" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M5a52" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M5a53" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M5a54" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M5a55" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+
+	<TextView
+	    android:id="@+id/textView3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/title3" 
+        android:textColor="@color/white" />
+	
+		<TableRow
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="10dp"
+		    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M5b1" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M5b2" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M5b3" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M5b4" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M5b5" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+
+   <Button
+       		android:layout_marginTop="10dp"
+            android:id="@+id/calc55"
+            style="@style/MyButtonView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/detmatr_button" />
+   
+   
+
+<TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView35" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="@color/white"/>
+            
+        </LinearLayout>
+    </ScrollView>
+  
+</TableLayout>

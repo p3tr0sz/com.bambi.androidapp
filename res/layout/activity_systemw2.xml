@@ -1,0 +1,136 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Systemw2" 
+    android:background="@color/black">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+                <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" 
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title2" 
+        android:textColor="@color/white" />
+    
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M2a11" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="15dp"
+
+	        />
+	
+	    <EditText android:id="@+id/M2a12" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="15dp"
+	        
+	        />
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M2a21" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="15dp"
+
+	        />
+	
+	    <EditText android:id="@+id/M2a22" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="15dp"
+	        
+	        />
+	</TableRow>
+
+<TextView
+    android:id="@+id/title3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/title3" 
+    android:textColor="@color/white" />
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M2b1" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="15dp"
+
+	        />
+	
+	    <EditText android:id="@+id/M2b2" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="15dp"
+	        
+	        />
+	</TableRow>
+
+   <Button
+       		android:layout_marginTop="10dp"
+            android:id="@+id/calc22"
+            style="@style/MyButtonView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/detmatr_button" />
+   
+   
+
+<TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView32" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"/>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</TableLayout>

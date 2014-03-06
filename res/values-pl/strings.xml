@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Operacje macierzowe</string>
+    <string name="action_settings">Settings</string>
+    <string name="matrix_button">Operacje na macierzach</string>
+    <string name="complex_button">Operacje na liczbach zespolonych</string>
+    <string name="equation_button">Rozwiązywanie liniowych układów równań</string>
+    <string name="exit_button">Wyjście</string>
+
+    <color name="black">#000000</color>
+    <color name="silver">#D3D3D3</color>
+    <color name="white">#ffffff</color>
+
+    <string name="title_activity_matrix_operations">Operacje macierzowe</string>
+    <string name="det_button">Wyznacznik macierzy</string>
+    <string name="inv_button">Macierz odwrotna</string>
+    <string name="mult_button">Mnożenie macierzy</string>
+    <string name="trans_button">Transpozycja macierzy</string>
+    <string name="trace_button">Ślad macierzy</string>
+    <string name="rank_button">Rząd macierzy</string>
+    <string name="title_activity_matrix_list">Lista wyboru</string>
+    <string name="dxd_button">Macierz 2x2</string>
+    <string name="txt_button">Macierz 3x3</string>
+    <string name="cxc_button">Macierz 4x4</string>
+    <string name="pxp_button">Macierz 5x5</string>
+    <string name="title_activity_matrix2x2">Matrix2x2</string>
+    <string name="detmatr_button">Oblicz</string>
+    <string name="title_activity_matrix3x3">Matrix3x3</string>
+    <string name="title_activity_matrix4x4">Matrix4x4</string>
+    <string name="title_activity_matrix5x5">Matrix5x5</string>
+    <string name="title_activity_complex_operations">Operacje na liczb. zesp.</string>
+    <string name="multiply_button">Pomnóż dwie liczby zespolone w postaci kanonicznej</string>
+    <string name="div_button">Podziel liczbę zesp. przez drugą</string>
+    <string name="pow_button">Podnieś liczbę do potęgi(wykładnik > 1)</string>
+    <string name="conv_button">Zamień z postaci kanonicznej na trygonometryczną</string>
+    <string name="title_activity_add_numbers">AddNumbers</string>
+    <string name="title_activity_complex_interface">Lista wyboru</string>
+    <string name="fsttext">Pierwsza liczba:</string>
+    <string name="ssttext">Druga liczba:</string>
+    <string name="retext">Część rzeczywista</string>
+    <string name="imtext">Część urojona</string>
+    <string name="restext">Wynik:</string>
+    <string name="title_activity_complex_exponential">Potęgowanie</string>
+    <string name="reetext">Liczba zespolona</string>
+    <string name="sssttext">Wykladnik potegi (całkowity > 1)</string>
+    <string name="title_activity_complex_conversion">Konwersja</string>
+    <string name="reeetext">Kanoniczna/Biegunowa</string>
+    <string name="retextt">Re/Mod</string>
+    <string name="retexttt">Im/Arg(Mod)</string>
+    <string name="retofi_button">Kanon. do biegun.</string>
+    <string name="fitore_button">Biegun. do kanon.</string>
+    <string name="title_activity_equation_system">Lista wyboru</string>
+    <string name="esdxd_button">Układ z 2 niewiadomymi</string>
+    <string name="estxt_button">Układ z 3 niewiadomymi</string>
+    <string name="escxc_button">Układ z 4 niewiadomymi</string>
+    <string name="espxp_button">Układ z 5 niewiadomymi</string>
+    <string name="title_activity_systemw2">Układ z 2 niewiadomymi</string>
+    <string name="title_activity_systemw3">Układ z 3 niewiadomymi</string>
+    <string name="title_activity_systemw4">Układ z 4 niewiadomymi</string>
+    <string name="title_activity_systemw5">Układ z 5 niewiadomymi</string>
+    
+    <string name="title">Układ postaci Ax=b</string>
+    <string name="title2">Macierz A:</string>
+    <string name="title3">Wektor b:</string>
+
+</resources>

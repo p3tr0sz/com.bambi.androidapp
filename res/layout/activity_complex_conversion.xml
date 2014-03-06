@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".ComplexConversion" 
+    android:background="@color/black">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView25" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/reeetext" 
+    android:textColor="@color/white"/>
+ 
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+		
+    <TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView26" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/retextt" 
+    android:textColor="@color/white"
+    android:layout_marginRight="50dp"/>
+    
+    <TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView27" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/retexttt"
+    android:textColor="@color/white"
+    android:layout_marginLeft="100dp"/>
+
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" 
+    android:layout_marginTop="20dp">
+		
+	    <EditText android:id="@+id/renum7" 
+	        android:layout_width="100dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="45dp"
+
+	        />
+	
+	    <EditText android:id="@+id/imnum7" 
+	        android:layout_width="100dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="45dp"
+	/>
+	</TableRow>
+	  
+
+		
+	                <Button
+             android:id="@+id/calculate3"
+            style="@style/MyButtonView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/retofi_button" />
+        <Button
+            android:id="@+id/calculate4"
+            style="@style/MyButtonView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fitore_button" />
+	        
+
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" 
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+		
+    <TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView6" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/restext" 
+    android:textColor="@color/white"
+    android:layout_marginRight="40dp"/>
+
+	</TableRow>  
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+	
+    <TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView30" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="@color/white"
+    android:layout_marginLeft="40dp"/>
+
+	</TableRow>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

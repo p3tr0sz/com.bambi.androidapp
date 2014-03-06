@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bart.piotr.operacjealgebraiczne"
+    android:versionCode="3"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.EkranStartowy"
+            android:label="@string/app_name" 
+            android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.MatrixOperations"
+            android:label="@string/title_activity_matrix_operations" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.MatrixList"           android:label="@string/title_activity_matrix_list" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Matrix2x2"
+            android:label="@string/title_activity_matrix2x2"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Matrix3x3"           android:label="@string/title_activity_matrix3x3" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Matrix4x4"         android:label="@string/title_activity_matrix4x4" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Matrix5x5"   android:label="@string/title_activity_matrix5x5" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.ComplexOperations"
+            android:label="@string/title_activity_complex_operations" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.ComplexInterface"       android:label="@string/title_activity_complex_interface" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.ComplexExponential"     android:label="@string/title_activity_complex_exponential" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.ComplexConversion"
+            android:label="@string/title_activity_complex_conversion" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.EquationSystem"      
+             android:label="@string/title_activity_equation_system" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Systemw2" 
+            android:label="@string/title_activity_systemw2" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Systemw3" 
+            android:label="@string/title_activity_systemw3" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Systemw4" 
+            android:label="@string/title_activity_systemw4"
+            android:configChanges="keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name="bart.piotr.operacjealgebraiczne.Systemw5"
+            android:label="@string/title_activity_systemw5" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+    </application>
+
+</manifest>

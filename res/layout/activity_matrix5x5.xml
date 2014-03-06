@@ -1,0 +1,294 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Matrix5x5" 
+    android:background="@color/black">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+		
+	    	    <EditText android:id="@+id/M511" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M512" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M513" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	           <EditText android:id="@+id/M514" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	           <EditText android:id="@+id/M515" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center" >
+		
+	    	    <EditText android:id="@+id/M521" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+ android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M522" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M523" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	            <EditText android:id="@+id/M524" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	           <EditText android:id="@+id/M525" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M531" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M532" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M533" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M534" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	               <EditText android:id="@+id/M535" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M541" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M542" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M543" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M544" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M545" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+
+	<TableRow
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center" >
+		
+	    <EditText android:id="@+id/M551" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+			 android:layout_marginLeft="10dp"
+	        />
+	
+	    <EditText android:id="@+id/M552" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M553" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M554" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M555" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+
+   <Button
+       		android:layout_marginTop="10dp"
+            android:id="@+id/det55"
+            style="@style/MyButtonView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/detmatr_button" />
+   
+   
+
+<TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView4" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="@color/white"/>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</TableLayout>

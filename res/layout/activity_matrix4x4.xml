@@ -1,0 +1,194 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Matrix4x4" 
+    android:background="@color/black">
+
+<TableRow
+	    android:gravity="center">
+		
+	    	    <EditText android:id="@+id/M411" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+	         android:layout_marginLeft="10dp"
+
+	        />
+	
+	    <EditText android:id="@+id/M412" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M413" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	           <EditText android:id="@+id/M414" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+	    android:gravity="center"
+	    android:layout_marginTop="10dp">
+		
+	    	    <EditText android:id="@+id/M421" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+	         android:layout_marginLeft="10dp"
+
+	        />
+	
+	    <EditText android:id="@+id/M422" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M423" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	            <EditText android:id="@+id/M424" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	</TableRow>
+	
+<TableRow
+	    android:gravity="center"
+	    android:layout_marginTop="10dp">
+		
+	    <EditText android:id="@+id/M431" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+	         android:layout_marginLeft="10dp"
+
+	        />
+	
+	    <EditText android:id="@+id/M432" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M433" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M434" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+	
+<TableRow
+	    android:gravity="center"
+	    android:layout_marginTop="10dp">
+		
+	    <EditText android:id="@+id/M441" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"   
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginRight="10dp"
+	         android:layout_marginLeft="10dp"
+
+	        />
+	
+	    <EditText android:id="@+id/M442" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	        <EditText android:id="@+id/M443" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	        <EditText android:id="@+id/M444" 
+	        android:layout_width="40dp" 
+	        android:layout_height="wrap_content"  
+	        android:inputType="phone" 
+	        android:background="@color/white"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        />
+	</TableRow>
+
+   <Button
+       		android:layout_marginTop="10dp"
+            android:id="@+id/det44"
+            style="@style/MyButtonView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/detmatr_button" />
+   
+   
+
+<TextView 
+    android:layout_marginTop="5dp"
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textColor="@color/white"/>
+</TableLayout>
